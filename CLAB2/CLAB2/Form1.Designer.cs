@@ -46,11 +46,13 @@ namespace CLAB2
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.txtConectar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtConectar);
             this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.txtExistencias);
             this.groupBox1.Controls.Add(this.txtPrecioPublico);
@@ -64,63 +66,72 @@ namespace CLAB2
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(8, 8);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(527, 343);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(351, 223);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Producto";
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(353, 248);
+            this.txtId.Location = new System.Drawing.Point(235, 161);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(123, 32);
+            this.txtId.Size = new System.Drawing.Size(83, 24);
             this.txtId.TabIndex = 16;
             this.txtId.Visible = false;
             // 
             // txtExistencias
             // 
-            this.txtExistencias.Location = new System.Drawing.Point(171, 296);
+            this.txtExistencias.Location = new System.Drawing.Point(114, 192);
+            this.txtExistencias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtExistencias.Name = "txtExistencias";
-            this.txtExistencias.Size = new System.Drawing.Size(176, 32);
+            this.txtExistencias.Size = new System.Drawing.Size(119, 24);
             this.txtExistencias.TabIndex = 15;
             // 
             // txtPrecioPublico
             // 
-            this.txtPrecioPublico.Location = new System.Drawing.Point(171, 248);
+            this.txtPrecioPublico.Location = new System.Drawing.Point(114, 161);
+            this.txtPrecioPublico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrecioPublico.Name = "txtPrecioPublico";
-            this.txtPrecioPublico.Size = new System.Drawing.Size(176, 32);
+            this.txtPrecioPublico.Size = new System.Drawing.Size(119, 24);
             this.txtPrecioPublico.TabIndex = 14;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(171, 151);
+            this.txtDescripcion.Location = new System.Drawing.Point(114, 98);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(263, 69);
+            this.txtDescripcion.Size = new System.Drawing.Size(177, 46);
             this.txtDescripcion.TabIndex = 13;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(171, 99);
+            this.txtNombre.Location = new System.Drawing.Point(114, 64);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(191, 32);
+            this.txtNombre.Size = new System.Drawing.Size(129, 24);
             this.txtNombre.TabIndex = 12;
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(171, 50);
+            this.txtCodigo.Location = new System.Drawing.Point(114, 32);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(191, 32);
+            this.txtCodigo.Size = new System.Drawing.Size(129, 24);
             this.txtCodigo.TabIndex = 11;
             // 
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.btnBuscar.Location = new System.Drawing.Point(382, 52);
+            this.btnBuscar.Location = new System.Drawing.Point(255, 34);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(88, 32);
+            this.btnBuscar.Size = new System.Drawing.Size(59, 21);
             this.btnBuscar.TabIndex = 10;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -130,9 +141,10 @@ namespace CLAB2
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label6.Location = new System.Drawing.Point(36, 299);
+            this.label6.Location = new System.Drawing.Point(24, 194);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(129, 26);
+            this.label6.Size = new System.Drawing.Size(87, 18);
             this.label6.TabIndex = 5;
             this.label6.Text = "Existencias:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -141,9 +153,10 @@ namespace CLAB2
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label5.Location = new System.Drawing.Point(36, 225);
+            this.label5.Location = new System.Drawing.Point(24, 146);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 52);
+            this.label5.Size = new System.Drawing.Size(61, 36);
             this.label5.TabIndex = 4;
             this.label5.Text = "Precio \r\nPúblico:\r\n";
             // 
@@ -151,9 +164,10 @@ namespace CLAB2
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label3.Location = new System.Drawing.Point(36, 154);
+            this.label3.Location = new System.Drawing.Point(24, 100);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 26);
+            this.label3.Size = new System.Drawing.Size(91, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "Descripción:";
             // 
@@ -161,9 +175,10 @@ namespace CLAB2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label2.Location = new System.Drawing.Point(36, 102);
+            this.label2.Location = new System.Drawing.Point(24, 66);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 26);
+            this.label2.Size = new System.Drawing.Size(66, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
@@ -171,18 +186,20 @@ namespace CLAB2
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label1.Location = new System.Drawing.Point(35, 53);
+            this.label1.Location = new System.Drawing.Point(23, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 26);
+            this.label1.Size = new System.Drawing.Size(60, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Código:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(52, 370);
+            this.btnGuardar.Location = new System.Drawing.Point(35, 240);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(108, 31);
+            this.btnGuardar.Size = new System.Drawing.Size(72, 20);
             this.btnGuardar.TabIndex = 6;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -190,41 +207,56 @@ namespace CLAB2
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(166, 370);
+            this.btnActualizar.Location = new System.Drawing.Point(111, 240);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(108, 31);
+            this.btnActualizar.Size = new System.Drawing.Size(72, 20);
             this.btnActualizar.TabIndex = 7;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(280, 370);
+            this.btnEliminar.Location = new System.Drawing.Point(187, 240);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(108, 31);
+            this.btnEliminar.Size = new System.Drawing.Size(72, 20);
             this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(394, 370);
+            this.btnLimpiar.Location = new System.Drawing.Point(263, 240);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(108, 31);
+            this.btnLimpiar.Size = new System.Drawing.Size(72, 20);
             this.btnLimpiar.TabIndex = 9;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
+            // txtConectar
+            // 
+            this.txtConectar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.txtConectar.Location = new System.Drawing.Point(255, 66);
+            this.txtConectar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtConectar.Name = "txtConectar";
+            this.txtConectar.Size = new System.Drawing.Size(59, 21);
+            this.txtConectar.TabIndex = 17;
+            this.txtConectar.Text = "Conectar";
+            this.txtConectar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 425);
+            this.ClientSize = new System.Drawing.Size(367, 276);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnLimpiar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Farmacia Geminis";
             this.groupBox1.ResumeLayout(false);
@@ -252,6 +284,7 @@ namespace CLAB2
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Button txtConectar;
     }
 }
 

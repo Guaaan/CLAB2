@@ -11,8 +11,8 @@ namespace CLAB2
     {
         public static MySqlConnection conexion() 
         {
-            string servidor = "localhost";
-            string bd = "farmacia";
+            string servidor = "127.0.0.1";
+            string bd = "productos_db";
             string usuario = "root";
             string password = "Juan1309";
 

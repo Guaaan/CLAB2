@@ -71,6 +71,12 @@ namespace CLAB2
                 MySqlCommand comando = new MySqlCommand(sql, conexionBD);
                 reader = comando.ExecuteReader();
             }
+            catch
+            {
+
+            }
         }
+
+        
     }
 }
